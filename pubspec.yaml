@@ -36,6 +36,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_svg: ^2.0.5
+  adaptive_layout: ^0.1.7
 
 dev_dependencies:
   flutter_test:
@@ -78,7 +79,8 @@ flutter:
       fonts:
         - asset: fonts/onest_bold.ttf
           weight: 700
-
+        - asset: fonts/onest_medium.ttf
+          weight: 500
   #    - family: Trajan Pro
   #      fonts:
   #        - asset: fonts/TrajanPro.ttf
